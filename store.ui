@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Store</class>
+ <widget class="QDialog" name="Store">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>756</width>
+    <height>1299</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QDialog{
+border-image: url(:/myPictures/pictures/store_page1.jpg);}</string>
+  </property>
+  <widget class="QWidget" name="Back" native="true">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>120</width>
+     <height>80</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QWidget" name="store_to_yard" native="true">
+   <property name="geometry">
+    <rect>
+     <x>610</x>
+     <y>1100</y>
+     <width>120</width>
+     <height>80</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QWidget" name="store_to_room" native="true">
+   <property name="geometry">
+    <rect>
+     <x>600</x>
+     <y>1190</y>
+     <width>120</width>
+     <height>80</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QWidget" name="PageChange" native="true">
+   <property name="geometry">
+    <rect>
+     <x>660</x>
+     <y>510</y>
+     <width>81</width>
+     <height>71</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QWidget" name="PageChange_pre" native="true">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>530</y>
+     <width>101</width>
+     <height>80</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="firstLine">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>1011</y>
+     <width>351</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 14pt &quot;宋体&quot;;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="secondLine">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>1070</y>
+     <width>351</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 14pt &quot;宋体&quot;;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="thirdLine">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>1130</y>
+     <width>351</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 14pt &quot;宋体&quot;;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QWidget" name="leftup" native="true">
+   <property name="geometry">
+    <rect>
+     <x>39</x>
+     <y>309</y>
+     <width>321</width>
+     <height>241</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QWidget" name="rightup" native="true">
+   <property name="geometry">
+    <rect>
+     <x>410</x>
+     <y>260</y>
+     <width>321</width>
+     <height>241</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QWidget" name="leftdown" native="true">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>600</y>
+     <width>321</width>
+     <height>241</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QWidget" name="rightdown" native="true">
+   <property name="geometry">
+    <rect>
+     <x>400</x>
+     <y>620</y>
+     <width>321</width>
+     <height>241</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="MoneyNumber">
+   <property name="geometry">
+    <rect>
+     <x>470</x>
+     <y>30</y>
+     <width>91</width>
+     <height>45</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel#MoneyNumber
+{font: 16pt &quot;Arial&quot;;
+background-color: rgb(230, 220, 192);}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QWidget" name="Buy_Button" native="true">
+   <property name="geometry">
+    <rect>
+     <x>420</x>
+     <y>1190</y>
+     <width>201</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QWidget#Buy_Button{
+border-image: url(:/myPictures/pictures/button_icon/buy.jpg);}</string>
+   </property>
+  </widget>
+  <widget class="QWidget" name="to_lottery" native="true">
+   <property name="geometry">
+    <rect>
+     <x>650</x>
+     <y>10</y>
+     <width>91</width>
+     <height>80</height>
+    </rect>
+   </property>
+  </widget>
+  <zorder>Back</zorder>
+  <zorder>store_to_yard</zorder>
+  <zorder>store_to_room</zorder>
+  <zorder>PageChange</zorder>
+  <zorder>PageChange_pre</zorder>
+  <zorder>firstLine</zorder>
+  <zorder>secondLine</zorder>
+  <zorder>thirdLine</zorder>
+  <zorder>leftup</zorder>
+  <zorder>rightup</zorder>
+  <zorder>leftdown</zorder>
+  <zorder>rightdown</zorder>
+  <zorder>Buy_Button</zorder>
+  <zorder>to_lottery</zorder>
+  <zorder>MoneyNumber</zorder>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
